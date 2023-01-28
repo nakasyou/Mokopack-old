@@ -1,4 +1,4 @@
-export default function(): Array{
+export default function(code: string): Array{
   const reg: RegExp=/(import +.* +from +[\"\'].*[\"\'])|(import +[\"\'].*[\"\'])/g;
   let arr: Array;
   const result: Set=new Set();
