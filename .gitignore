@@ -1,0 +1,7 @@
+# Git Files
+.git/
+# VSCode files
+.vscode/
+# Replit files
+/.replit
+/replit.nix
