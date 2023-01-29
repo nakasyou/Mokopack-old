@@ -2,3 +2,5 @@
 .git/
 # VSCode files
 .history/
+# Added by cargo
+/target
