@@ -1,3 +1,3 @@
 import {build} from '../../mokopack/index.ts';
 
-build()
+build("./files/index.html");
