@@ -11,5 +11,5 @@ path = "rs-wasm/src/lib.rs"
 crate-type = ["cdylib","rlib"]
 [dependencies]
 wasm-bindgen = "0.2"
-openssl = { version = "0.10", features = ["vendored"] }
+#https://doc.rust-lang.org/cargo/reference/manifest.html
 
