@@ -1,2 +1,1 @@
-export {default as build} from './core/build.ts'
-
+export {default as build} from './core/build.ts';

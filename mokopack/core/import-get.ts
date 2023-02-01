@@ -1,7 +1,7 @@
-export default function(code: string): Array{
+export default function(code: string): Array<string>{
   const reg: RegExp=/(import +.* +from +[\"\'].*[\"\'])|(import +[\"\'].*[\"\'])/g;
-  let arr: Array;
-  const result: Set=new Set();
+  let arr: RegExpExecArray | null;
+  const result: Set<any>=new Set();
   while ((arr=reg.exec(code)) !== null) {
     result.add(arr[0].replace(/import +.* +|import +/,""));
   }
