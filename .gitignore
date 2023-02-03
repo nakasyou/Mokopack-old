@@ -4,3 +4,5 @@
 .history/
 # Added by cargo
 /target
+# Setting files
+/.vscode/settings.json
