@@ -1,3 +1,9 @@
 {
-    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe"
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe",
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "javascript":"deno run -A $fullFileName",
+        "typescript":"deno run -A $fullFileName",
+        "python":"python3 $fullFileName"
+    }
 }
